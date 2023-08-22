@@ -1,0 +1,111 @@
+@font-face {
+    font-family: Inter;
+    src: url(../font/Inter-VariableFont_slnt,wght.ttf);
+}
+:root{
+    --color1: rgb(29, 29, 29);
+    --color2: rgb(13,13,13);
+    --color3: rgba(255, 255, 255, 0.9);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    min-height: 100vh;
+    background: var(--color1);
+    font-family: Inter;
+    color: var(--color3);
+}
+nav{
+    display: flex;
+   justify-content: space-between;
+    padding: 15px 20px;
+}
+a{
+    text-decoration: none;
+    color: var(--color3);
+    font-size: 1.8vw;
+}
+nav > *{
+    width: 50%;
+}
+nav > ul{
+    display: flex;
+    justify-content: space-between;
+}
+header{
+    padding: 0 20px;
+   display: flex;
+    height: 100vh;
+   align-items: center;
+    margin: 50px 0;
+}
+header > *{
+    height: 100%;
+    width: 50%;
+}
+.title h1{
+    font-size: 5rem;
+}
+.title h2{
+    color: blue;
+    font-size: 1.9rem;
+    margin: 20px 0;
+}
+.title p{
+    text-align: justify;
+    font-size: 1.2rem;
+    line-height: 20px;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+footer{
+    display: flex;
+    padding: 0 20px;
+    background: var(--color2);
+
+}
+.core input{
+    cursor: pointer;
+    height: 70px;
+    color: var(--color3);
+    background: blue;
+    border-radius: 10px;
+    margin: 5px 0;
+}
+.core div{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    justify-content: space-around;
+    height: 50%;
+    margin-top: 20px;
+}
+
+.investors div{
+    width: 80%;
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+.investors{
+    display: flex;
+    width: 75%;
+}
+.investors img{
+    width: 100px;
+    height: 70px;
+}
+.core {
+    width: 25%;
+}
+
+
